@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "readonly Chrome(MacOSx) cookies for Mojo::UserAgent",
    "author" : [
       "Fayland Lam <fayland@gmail.com>"
    ],
@@ -37,7 +37,13 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Crypt::CBC" : "0",
+            "Crypt::OpenSSL::AES" : "0",
+            "DBD::SQLite" : "0",
+            "DBI" : "0",
+            "Mojolicious" : "0",
+            "PBKDF2::Tiny" : "0",
+            "perl" : "5.010"
          }
       },
       "test" : {
@@ -47,6 +53,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-Mojo-UserAgent-CookieJar-ChromeMacOS/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-Mojo-UserAgent-CookieJar-ChromeMacOS",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-Mojo-UserAgent-CookieJar-ChromeMacOS.git",
+         "web" : "https://github.com/fayland/perl-Mojo-UserAgent-CookieJar-ChromeMacOS"
+      }
+   },
    "version" : "0.01"
 }
 
