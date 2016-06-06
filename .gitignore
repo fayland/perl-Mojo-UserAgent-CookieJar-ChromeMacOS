@@ -1,0 +1,7 @@
+/Mojo-UserAgent-CookieJar-ChromeMacOS-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
