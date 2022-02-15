@@ -3,7 +3,7 @@ package Mojo::UserAgent::CookieJar::ChromeMacOS;
 use strict;
 use warnings;
 use v5.10;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Mojo::Base 'Mojo::UserAgent::CookieJar';
 
